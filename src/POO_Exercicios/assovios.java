@@ -1,5 +1,5 @@
 package POO_Exercicios;
-import POO.Assovio;
+import Classes.Assovio;
 
 public class assovios {
     public static void main(String[] args) {

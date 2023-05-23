@@ -1,4 +1,4 @@
-package POO;
+package Classes;
 
 public class dog {
     private String name ;

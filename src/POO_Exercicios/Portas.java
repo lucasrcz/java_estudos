@@ -1,5 +1,5 @@
 package POO_Exercicios;
-import POO.Porta;
+import Classes.Porta;
 
 public class Portas {
     public static void main(String[] args) {

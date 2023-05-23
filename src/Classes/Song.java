@@ -1,4 +1,4 @@
-package POO;
+package Classes;
 
 public class Song {
     private String name ;

@@ -1,5 +1,5 @@
 package POO_Exercicios;
-import POO.Song;
+import Classes.Song;
 
 public class musicas {
     public static void main(String[] args) {

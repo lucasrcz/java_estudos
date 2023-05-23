@@ -1,5 +1,5 @@
 package Fundamentos;
-import POO.DiminuirContador;
+import Classes.DiminuirContador;
 
 public class decreasingExercise{
     public static void main(String[] args) {

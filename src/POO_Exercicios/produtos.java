@@ -1,5 +1,5 @@
 package POO_Exercicios;
-import POO.Product;
+import Classes.Product;
 
 public class produtos {
     public static void main(String[] args) {
