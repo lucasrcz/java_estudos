@@ -23,6 +23,7 @@ public static void main(String[] args) {
         //Dentro do loop for podemos utilizar os métodos de 
         System.out.println(person.toString());
     }
+    sc.close();
 }
 
 

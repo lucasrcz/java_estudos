@@ -7,5 +7,6 @@ public class lendo_int {
         System.out.println("Digite um número:");
         int value = Integer.valueOf(scanner.nextLine());
         System.out.println("Valor digitado:" + value);
+        scanner.close();
     }
 }

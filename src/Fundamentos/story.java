@@ -10,5 +10,6 @@ public class story {
         System.out.println("Digite sua idade");
         String idade = scanner.nextLine();
         System.out.println("Seu nome é " + nome + " e sua idade é de " + idade);
+        scanner.close();
     }
 }

@@ -21,5 +21,6 @@ public class idade {
         for(String nome : nomes){
             System.out.println(nome);
         }
+        sc.close();
     }
 }

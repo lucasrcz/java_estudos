@@ -10,5 +10,6 @@ public class odd_or_even {
         }else{
             System.out.println("Número impar");
         }
+        scanner.close();
     }
 }

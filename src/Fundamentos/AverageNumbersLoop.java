@@ -21,5 +21,6 @@ public class AverageNumbersLoop {
        double media = Double.valueOf(soma) / contador ;
        System.out.println("A média dos números foi de:" + media);
        System.out.println("A quantidade de números somados foi de:" + contador);
+       sc.close();
     }
 }

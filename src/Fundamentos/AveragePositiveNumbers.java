@@ -20,5 +20,6 @@ public class AveragePositiveNumbers {
         sum = sum + numero;
         contador++;
         }
+    sc.close();
     }
 }

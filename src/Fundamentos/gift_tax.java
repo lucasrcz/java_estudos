@@ -20,5 +20,6 @@ public class gift_tax {
     }else{
         System.out.println("No tax!");
     }
+    reader.close();
     }
 }

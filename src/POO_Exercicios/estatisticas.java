@@ -22,5 +22,6 @@ public class estatisticas {
     System.out.println("Soma:" + estatisticaUser.getSoma());
     System.out.println("Contagem:" + estatisticaUser.getContagem());
     System.out.println("Media:" +estatisticaUser.media());
- }
+    sc.close();
+    }
 }

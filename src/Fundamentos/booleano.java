@@ -14,5 +14,6 @@ public class booleano {
         }else{
             System.out.println("Idade válida:" + idade + " anos");
         }
+        scanner.close();
     }
 }

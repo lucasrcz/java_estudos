@@ -10,5 +10,6 @@ public class condicionais {
         }else{
             System.out.println("Maior de idade!");
         }
+        scanner.close();
     }
 }

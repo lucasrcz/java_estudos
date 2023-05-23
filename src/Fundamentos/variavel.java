@@ -4,6 +4,7 @@ public class variavel {
         String nome = "Lucas";
         int idade = 27;
         boolean casado = true;
-        System.out.println(nome);
+        System.out.println(nome +" " +casado + " " + idade);
+    
     }
 }

@@ -12,5 +12,6 @@ public class password {
         }else{
             System.out.println("Senha não confere");
         }
+        reader.close();
     }
 }

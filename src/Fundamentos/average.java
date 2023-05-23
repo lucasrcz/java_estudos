@@ -9,5 +9,6 @@ public class average {
         int n2 = Integer.valueOf(scanner.nextLine());
         double media = (double) (n1 + n2)/2;
         System.out.println("A média é:" + media);
+        scanner.close();
     }
 }

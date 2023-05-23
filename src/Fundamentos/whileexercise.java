@@ -15,5 +15,6 @@ public class whileexercise {
             numeros_lidos = numeros_lidos + 1;
         }
         System.out.println("O número somado é de:" + soma);
+        sc.close();
     }
 }

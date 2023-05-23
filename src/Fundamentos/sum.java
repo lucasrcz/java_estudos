@@ -9,5 +9,6 @@ public class sum {
         System.out.println("Digite o segundo número:");
         int n2 = Integer.valueOf(scanner.nextLine());
         System.out.println("Resultado:" + (n1 + n2));
+        scanner.close();
     }    
 }

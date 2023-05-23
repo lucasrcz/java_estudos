@@ -12,7 +12,7 @@ public class methodsReat {
                 hobbit();
             }
         }
-
+        sc.close();
     }
 
     public static void hobbit(){

@@ -8,4 +8,9 @@ public class Room {
         this.code = code ;
         this.numberOfSeats = numberOfSeats ;
     }
+
+    @Override
+    public String toString(){
+        return code + numberOfSeats;
+    }
 }

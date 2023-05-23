@@ -2,7 +2,6 @@ package POO_Exercicios;
 
 import Classes.Film;
 
-import java.util.Arrays;
 public class filmes {
     public static void main(String[] args) {
         Film filmeA = new Film(18, "Todo mundo em pânico");
