@@ -1,5 +1,4 @@
 package POO_Exercicios;
-import java.util.List;
 
 import Classes.Film;
 
