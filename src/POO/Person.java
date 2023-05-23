@@ -18,4 +18,12 @@ public class Person {
             this.age = this.age + 1;
         }
     }
+
+    public boolean checkAge(){
+        if(this.age<18){
+            return false;
+        }else{
+            return true;
+        }
+    }
 }
