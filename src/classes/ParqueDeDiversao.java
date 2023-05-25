@@ -3,13 +3,13 @@ package classes;
 public class ParqueDeDiversao {
         
     private String nome;
-    private int alturaMinima;
+    private double alturaMinima;
 
-    public ParqueDeDiversao(String nome, int alturaMinima) {
+    public ParqueDeDiversao(String nome, double alturaMinima) {
         this.nome = nome;
         this.alturaMinima = alturaMinima;
     }
-    
+
     @Override
     public String toString() {
         return this.nome + ", minimum height: " + this.alturaMinima;

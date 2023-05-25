@@ -6,6 +6,12 @@ public class Person {
     private double peso;
     private double altura;
     //Constructor
+    public Person(String initialName, int idade, double altura,double peso) {
+        this.age = idade;
+        this.name = initialName;
+        this.altura = altura ;
+        this.peso = peso ;
+    }
     public Person(String initialName, int idade) {
         this.age = idade;
         this.name = initialName;
@@ -43,7 +49,15 @@ public class Person {
     }
 
     public double getAltura() {
-        return altura;
+        return this.altura;
+    }
+
+    public double getPeso(){
+        return this.peso;
+    }
+
+    public void addPeso(double adicional){
+        this.peso += adicional ;
     }
 
     @Override
