@@ -5,6 +5,7 @@ public class Person {
     private int age;
     private double peso;
     private double altura;
+    private simpleDate birthday;
     //Constructor
     public Person(String initialName, int idade, double altura,double peso) {
         this.age = idade;
@@ -15,6 +16,11 @@ public class Person {
     public Person(String initialName, int idade) {
         this.age = idade;
         this.name = initialName;
+    }
+
+    public Person(String name, int day, int month, int year) {
+        this.name = name;
+        this.birthday = new simpleDate(day, month, year);
     }
 
     public void setPeso(double peso){
@@ -61,7 +67,7 @@ public class Person {
     }
 
     @Override
-    public String toString(){
-        return this.name + ", tem " + this.age + " anos"; 
+    public String toString() {
+        return this.name + ", born on " + this.birthday;
     }
 }
