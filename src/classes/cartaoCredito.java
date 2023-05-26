@@ -1,6 +1,5 @@
 package classes;
 
-import fundamentos.booleano;
 
 public class cartaoCredito {
     private double saldo;
