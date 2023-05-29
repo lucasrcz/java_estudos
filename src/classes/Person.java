@@ -66,6 +66,14 @@ public class Person {
         this.peso += adicional ;
     }
 
+    public boolean maisVelhoPessoa(Person comparado){
+        if(this.birthday.maisVelho(birthday)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
     @Override
     public String toString() {
         return this.name + ", born on " + this.birthday;

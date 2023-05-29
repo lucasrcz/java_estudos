@@ -23,6 +23,30 @@ public class simpleDate {
         return this.year;
     }
 
+    public boolean maisVelho(simpleDate comparado){
+        if(this.year < comparado.year){
+            return false;
+        }
+        
+        if(this.year > comparado.year){
+            return true;
+        }
+
+        if(this.month < comparado.month){
+            return false;
+        }
+
+        if(this.month >  comparado.month){
+            return true;
+        }
+
+        if(this.day < comparado.day){
+            return false;
+        }
+
+        return true;
+    }
+
     @Override
     public String toString() {
         return this.day + "." + this.month + "." + this.year;
