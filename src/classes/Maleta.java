@@ -30,7 +30,7 @@ public class Maleta {
 
     public void printaItens(){
         if(this.itens.isEmpty()){
-            System.out.println("Maleta vazia");
+            System.out.println("Uma Maleta vazia");
         }else{
             double pesoTotal = 0;
             for(Item item : this.itens){
