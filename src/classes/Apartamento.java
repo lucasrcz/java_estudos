@@ -36,5 +36,8 @@ public class Apartamento {
         return false;
       }
     }
-      
+
+    public int getQuartos(){
+      return this.quartos;
+    }
 }
