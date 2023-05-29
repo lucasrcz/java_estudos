@@ -66,6 +66,28 @@ public class Person {
         this.peso += adicional ;
     }
 
+
+    @Override
+    public boolean equals(Object compared){
+        if(this == compared){
+            return true;
+        }if(!(compared instanceof Person)){
+            return false;
+        }
+
+        Person comparedPerson = (Person) compared; //É necessário converter o parâmetro do método para pessoa
+
+        if(this.name.equals(comparedPerson.name) && //Necessário fazer uso do equals para Strings
+           this.age == comparedPerson.age &&
+           this.peso == comparedPerson.peso &&
+           this.altura == comparedPerson.altura){
+            return true;
+           }
+        
+        return false; //Caso tudo seja falso retorna falso
+    }
+
+
     @Override
     public String toString() {
         return this.name + ", born on " + this.birthday;
