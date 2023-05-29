@@ -1,4 +1,5 @@
 package poo_exercicios;
+import classes.Person;
 import classes.Song;
 
 public class musicas {
@@ -15,6 +16,10 @@ public class musicas {
         System.out.println(musica1.equals(musica3));
 
         Song musica4 = new Song("Get back", 167); 
+
+        Person pessoa1 = new Person("Lucas", 27);
+
+        System.out.println("Uma pessoa com uma música, que comparação estranha:" + musica1.equals(pessoa1));
 
         System.out.println(musica4.equals(musica1)); //Retorna pois tem os mesmos atributos
     }
