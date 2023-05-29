@@ -1,5 +1,6 @@
 package classes;
 
+
 public class Song {
     private String name ;
     private int duracao ;
@@ -16,4 +17,23 @@ public class Song {
         return this.duracao;
     }
 
+    @Override
+    public boolean equals(Object comparado){
+        if(this == comparado){
+            return true;
+        }
+
+        if(!(comparado instanceof Song)){
+            return false;
+        }
+
+        Song musicaComparada = (Song) comparado;
+
+        if(this.name.toLowerCase().equals(musicaComparada.name.toLowerCase()) &&
+           this.duracao == musicaComparada.duracao){
+            return true;
+        }
+        
+        return false;
+    }
 }
