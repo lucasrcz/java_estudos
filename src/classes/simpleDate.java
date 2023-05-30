@@ -51,4 +51,23 @@ public class simpleDate {
     public String toString() {
         return this.day + "." + this.month + "." + this.year;
     }
+
+
+    public boolean equals(simpleDate simpleDate){
+        if(this.day == simpleDate.day &&
+           this.month == simpleDate.month &&
+           this.year == simpleDate.year){
+            
+            return true;
+        }else{
+            
+            return false;
+        }
+    }
+
+    @Override
+    public int hashCode(){
+        return this.day * 11 * this.month * 7 * this.year ;
+    }
+
 }

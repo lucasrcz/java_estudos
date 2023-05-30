@@ -1,5 +1,7 @@
 package poo_exercicios;
 
+import java.util.HashMap;
+
 import classes.Livro;
 
 public class  livros {
@@ -14,5 +16,9 @@ public class  livros {
         System.out.println(livros[3].getNome()+ " é igual a: " + livros[1].getNome() + ": " + livros[3].equals( livros[1]));
         System.out.println(livros[0].getNome()+ " é igual a: "+ livros[1].getNome() + ": " + livros[0].equals( livros[1]));
         System.out.println(livros[1].getNome()+ " é igual a: "+ livros[3].getNome() + ": " + livros[1].equals( livros[3]));
+   
+        HashMap <String,Livro> livrosDict = new HashMap();
+        livrosDict.put(livro1.getNome(),livro1);
+        System.out.println(livrosDict.get("1984"));
     }
 }
