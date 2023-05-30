@@ -42,4 +42,14 @@ public class LicensePlate {
         return this.country.hashCode() + this.liNumber.hashCode();
     }
 
+    public String getLiNumber() {
+        return liNumber;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    
+
 }
