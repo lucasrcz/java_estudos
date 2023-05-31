@@ -34,7 +34,7 @@ public class placas {
             System.out.println("Já existe:" + owners.get(li3));
             // if the hasCode-method hasn't been overwritten, the owners won't be found
 
-            RegistroDePlacas registros = new RegistroDePlacas();
+           RegistroDePlacas registros = new RegistroDePlacas();
            System.out.println("Teste dos métodos:");
            registros.addProprietario("Lucas", li1);
            registros.addProprietario("Lucas", li1);
