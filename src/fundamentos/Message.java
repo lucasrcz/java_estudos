@@ -28,8 +28,14 @@ public class Message {
         if (!messages.contains(new Message("SMS"))) {
             messages.add(sms);
         }
+
+        
         
         System.out.println(messages.size());
+    }
+
+    public String getName() {
+        return name;
     }
 }
 
