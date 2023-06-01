@@ -1,11 +1,11 @@
 package fundamentos;
 import java.util.ArrayList;
 
-public class Message {
+public class message {
     
     private String name;
  
-    public Message(String name) {
+    public message(String name) {
         this.name = name;
     }
 
@@ -31,5 +31,10 @@ public class Message {
         
         System.out.println(messages.size());
     }
+
+    public String getName() {
+        return name;
+    }
+    
 }
 

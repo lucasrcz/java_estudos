@@ -18,6 +18,6 @@ public class Student extends Pessoa {
 
     @Override
     public String toString(){
-        return super.toString();
+        return super.toString() + " Cŕedito:" + this.getCredito();
     }
 }
