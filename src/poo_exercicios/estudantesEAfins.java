@@ -26,7 +26,7 @@ public class estudantesEAfins {
             System.out.println(pessoa);
         }
 
-        Pessoa olliePerson = new Student("Ollie", "6381 Hollywood Blvd. Los Angeles 90028");
-        System.out.println(olliePerson);
+        Pessoa ollie = new Student("Ollie", "6381 Hollywood Blvd. Los Angeles 90028");
+        System.out.println(ollie);   // ollie.toString() WORKS
     }
 }
