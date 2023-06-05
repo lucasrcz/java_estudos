@@ -14,6 +14,7 @@ public class estudantesEAfins {
         System.out.println(lucas.getCredito());
         lucas.estudar();
         System.out.println(lucas.getCredito());
+        System.out.println(lucas.getNome());
 
         Professor daniel = new Professor("Daniel", "Vila Firenze", 30000);
 

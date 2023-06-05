@@ -10,6 +10,9 @@ public class Pessoa {
         this.endereco = endereco;
     }
 
+    public String  getNome(){
+        return this.nome;
+    }
     @Override
     public String toString() {
         return "Pessoa [nome=" + nome + ", endereço=" + endereco + "]";
