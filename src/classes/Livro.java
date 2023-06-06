@@ -1,8 +1,9 @@
 package classes;
 
-public class Livro {
+public class Livro{
     private String nome;
     private int paginas;
+
 
     public Livro(String nome , int paginas){
         this.nome = nome;

@@ -1,10 +1,10 @@
 package classes;
 
-public class TripleTacoBox implements TacoBox{
+public class CustomTaco {
     private int tacos;
-    
-    public TripleTacoBox(){
-        this.tacos = 3;
+
+    public CustomTaco (int tacos){
+        this.tacos = tacos ;
     }
 
     public int tacosRemaining(){
@@ -14,5 +14,4 @@ public class TripleTacoBox implements TacoBox{
     public void eat(){
         this.tacos -=1;
     }
-
 }
